@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "T6",
+					"strict" : false
+				},
+				{
+					"name" : "T8",
+					"strict" : false
+				},
+				{
+					"name" : "Q2",
+					"strict" : false
+				},
+				{
+					"name" : "Q1",
+					"strict" : false
+				},
+				{
+					"name" : "Q0",
+					"strict" : false
+				},
+				{
+					"name" : "resetCounter",
+					"strict" : false
+				},
+				{
+					"name" : "max",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "fin",
+					"strict" : false
+				},
+				{
+					"name" : "wait",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

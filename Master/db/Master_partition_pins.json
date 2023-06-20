@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seg_a",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b",
+					"strict" : false
+				},
+				{
+					"name" : "seg_c",
+					"strict" : false
+				},
+				{
+					"name" : "seg_d",
+					"strict" : false
+				},
+				{
+					"name" : "seg_e",
+					"strict" : false
+				},
+				{
+					"name" : "seg_f",
+					"strict" : false
+				},
+				{
+					"name" : "seg_g",
+					"strict" : false
+				},
+				{
+					"name" : "pGreen1",
+					"strict" : false
+				},
+				{
+					"name" : "pGreen2",
+					"strict" : false
+				},
+				{
+					"name" : "rRed1",
+					"strict" : false
+				},
+				{
+					"name" : "rRed2",
+					"strict" : false
+				},
+				{
+					"name" : "rYellow1",
+					"strict" : false
+				},
+				{
+					"name" : "rYellow2",
+					"strict" : false
+				},
+				{
+					"name" : "rGreen1",
+					"strict" : false
+				},
+				{
+					"name" : "rGreen2",
+					"strict" : false
+				},
+				{
+					"name" : "pRed1",
+					"strict" : false
+				},
+				{
+					"name" : "pRed2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_c2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_d2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_e2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_f2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_g2",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a3",
+					"strict" : false
+				},
+				{
+					"name" : "seg_d3",
+					"strict" : false
+				},
+				{
+					"name" : "seg_c3",
+					"strict" : false
+				},
+				{
+					"name" : "seg_g3",
+					"strict" : false
+				},
+				{
+					"name" : "seg_f3",
+					"strict" : false
+				},
+				{
+					"name" : "seg_e3",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "iClock",
+					"strict" : false
+				},
+				{
+					"name" : "button1",
+					"strict" : false
+				},
+				{
+					"name" : "button2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

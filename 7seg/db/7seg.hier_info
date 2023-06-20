@@ -1,0 +1,33 @@
+|7seg
+seg_a <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => DB.IN0
+A => DB10.IN0
+A => inst9.IN1
+A => inst3.IN2
+C => inst5.IN0
+C => DB.IN1
+C => inst9.IN2
+C => inst3.IN0
+C => DB18.IN0
+C => DB17.IN0
+C => DB21.IN0
+D => inst1.IN2
+D => inst10.IN2
+D => inst11.IN2
+B => -BC.IN0
+B => inst6.IN0
+B => DB10.IN1
+B => DB13.IN0
+B => DB12.IN0
+B => DB15.IN0
+B => DB19.IN1
+B => DB20.IN0
+seg_b <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+seg_c <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+seg_d <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+seg_e <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+seg_f <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+seg_g <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+
+

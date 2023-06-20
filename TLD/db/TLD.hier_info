@@ -1,0 +1,34 @@
+|TLD
+pRed <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst1.IN0
+B => inst5.IN1
+B => inst7.IN1
+B => inst91.IN1
+B => inst10.IN0
+B => inst13.IN1
+B => inst16.IN1
+C => inst4.IN1
+C => inst2.IN0
+C => inst7.IN2
+C => inst12.IN2
+C => inst16.IN2
+A => inst5.IN0
+A => inst.IN0
+A => inst18.IN0
+A => inst8.IN0
+A => inst13.IN0
+A => inst16.IN0
+pGreen <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst19.IN1
+rRed <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+rYellow <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+rGreen <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+pGreen2 <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+pRed2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+rRed2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+rYellow2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+rGreen2 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+pAmber <= <GND>
+pAmber2 <= <GND>
+
+

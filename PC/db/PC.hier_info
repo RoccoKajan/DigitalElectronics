@@ -1,0 +1,12 @@
+|PC
+A <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+clear => inst16.IN0
+resetCounter => inst16.IN1
+sensor1 => inst14.IN0
+sensor2 => inst14.IN1
+B <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+waiting <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+max <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,239 @@
+|Master
+seg_a <= 7seg:inst4.seg_a
+iClock => clockDiv:inst2.iClock
+clear => clockDiv:inst2.clear
+clear => T6_8:inst1.clear
+clear => PC:inst5.clear
+clear => TLC:inst.clear
+button1 => PC:inst5.sensor1
+button2 => PC:inst5.sensor2
+seg_b <= 7seg:inst4.seg_b
+seg_c <= 7seg:inst4.seg_c
+seg_d <= 7seg:inst4.seg_d
+seg_e <= 7seg:inst4.seg_e
+seg_f <= 7seg:inst4.seg_f
+seg_g <= 7seg:inst4.seg_g
+pAmber1 <= TLD:inst7.pAmber
+pAmber2 <= TLD:inst7.pAmber
+pGreen1 <= TLD:inst7.pGreen
+pGreen2 <= TLD:inst7.pGreen
+rRed1 <= TLD:inst7.rRed
+rRed2 <= TLD:inst7.rRed
+rYellow1 <= TLD:inst7.rYellow
+rYellow2 <= TLD:inst7.rYellow
+rGreen1 <= TLD:inst7.rGreen
+rGreen2 <= TLD:inst7.rGreen
+pRed1 <= TLD:inst7.pRed
+pRed2 <= TLD:inst7.pRed
+seg_b2 <= 7seg:inst6.seg_b
+seg_a2 <= 7seg:inst6.seg_a
+seg_c2 <= 7seg:inst6.seg_c
+seg_d2 <= 7seg:inst6.seg_d
+seg_e2 <= 7seg:inst6.seg_e
+seg_f2 <= 7seg:inst6.seg_f
+seg_g2 <= 7seg:inst6.seg_g
+seg_a3 <= 7seg:inst10.seg_a
+seg_b3 <= 7seg:inst10.seg_b
+seg_d3 <= 7seg:inst10.seg_d
+seg_c3 <= 7seg:inst10.seg_c
+seg_g3 <= 7seg:inst10.seg_g
+seg_f3 <= 7seg:inst10.seg_f
+seg_e3 <= 7seg:inst10.seg_e
+
+
+|Master|7seg:inst4
+seg_a <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => DB.IN0
+A => DB10.IN0
+A => inst9.IN1
+A => inst3.IN2
+C => inst5.IN0
+C => DB.IN1
+C => inst9.IN2
+C => inst3.IN0
+C => DB18.IN0
+C => DB17.IN0
+C => DB21.IN0
+D => inst1.IN2
+D => inst10.IN2
+D => inst11.IN2
+B => -BC.IN0
+B => inst6.IN0
+B => DB10.IN1
+B => DB13.IN0
+B => DB12.IN0
+B => DB15.IN0
+B => DB19.IN1
+B => DB20.IN0
+seg_b <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+seg_c <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+seg_d <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+seg_e <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+seg_f <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+seg_g <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Master|TLC:inst
+T6 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+max => inst211.IN0
+clear => Q0Register.ACLR
+clear => Q1Register.ACLR
+clear => Q2Register.ACLR
+clk => Q0Register.CLK
+clk => Q1Register.CLK
+clk => Q2Register.CLK
+fin => inst88.IN0
+fin => inst200.IN0
+fin => inst9.IN0
+fin => inst13.IN1
+wait => inst13.IN0
+T8 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2Register.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1Register.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0Register.DB_MAX_OUTPUT_PORT_TYPE
+resetCounter <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Master|T6_8:inst1
+fin <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+t8 => inst69.IN0
+t8 => inst11.IN0
+t6 => inst4.IN0
+t6 => inst6.IN1
+clear => Q0.ACLR
+clear => Q1.ACLR
+clear => q1test.DATAIN
+clk => Q0.CLK
+clk => Q1.CLK
+q1test <= clear.DB_MAX_OUTPUT_PORT_TYPE
+q0test <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Master|clockDiv:inst2
+1hzclock <= rippleCounter:inst.d4
+iClock => rippleCounter:inst.clk
+clear => rippleCounter:inst.reset
+halfhzclock <= rippleCounter:inst.d8
+
+
+|Master|clockDiv:inst2|rippleCounter:inst
+d4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+reset => inst2.ACLR
+reset => inst.ACLR
+reset => inst3.ACLR
+reset => inst4.ACLR
+clk => inst.CLK
+clk => d1.DATAIN
+d2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= clk.DB_MAX_OUTPUT_PORT_TYPE
+d8 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d16 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Master|PC:inst5
+A <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+resetCounter => inst3.IN0
+clear => inst3.IN1
+sensor2 => inst.IN0
+sensor1 => inst.IN1
+B <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+waiting <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+max <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Master|TLD:inst7
+pRed <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst1.IN0
+B => inst5.IN1
+B => inst7.IN1
+B => inst91.IN1
+B => inst10.IN0
+B => inst13.IN1
+B => inst16.IN1
+C => inst4.IN1
+C => inst2.IN0
+C => inst7.IN2
+C => inst12.IN2
+C => inst16.IN2
+A => inst5.IN0
+A => inst.IN0
+A => inst18.IN0
+A => inst8.IN0
+A => inst13.IN0
+A => inst16.IN0
+pGreen <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst19.IN1
+rRed <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+rYellow <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+rGreen <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+pAmber <= <GND>
+
+
+|Master|7seg:inst6
+seg_a <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => DB.IN0
+A => DB10.IN0
+A => inst9.IN1
+A => inst3.IN2
+C => inst5.IN0
+C => DB.IN1
+C => inst9.IN2
+C => inst3.IN0
+C => DB18.IN0
+C => DB17.IN0
+C => DB21.IN0
+D => inst1.IN2
+D => inst10.IN2
+D => inst11.IN2
+B => -BC.IN0
+B => inst6.IN0
+B => DB10.IN1
+B => DB13.IN0
+B => DB12.IN0
+B => DB15.IN0
+B => DB19.IN1
+B => DB20.IN0
+seg_b <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+seg_c <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+seg_d <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+seg_e <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+seg_f <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+seg_g <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Master|7seg:inst10
+seg_a <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => DB.IN0
+A => DB10.IN0
+A => inst9.IN1
+A => inst3.IN2
+C => inst5.IN0
+C => DB.IN1
+C => inst9.IN2
+C => inst3.IN0
+C => DB18.IN0
+C => DB17.IN0
+C => DB21.IN0
+D => inst1.IN2
+D => inst10.IN2
+D => inst11.IN2
+B => -BC.IN0
+B => inst6.IN0
+B => DB10.IN1
+B => DB13.IN0
+B => DB12.IN0
+B => DB15.IN0
+B => DB19.IN1
+B => DB20.IN0
+seg_b <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+seg_c <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+seg_d <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+seg_e <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+seg_f <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+seg_g <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+
+

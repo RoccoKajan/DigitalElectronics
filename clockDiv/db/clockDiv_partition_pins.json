@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "1hzclock",
+					"strict" : false
+				},
+				{
+					"name" : "halfhzclock",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "iClock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

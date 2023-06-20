@@ -1,0 +1,269 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : -2.586
+TNS   : -8.016
+
+Type  : Slow 1200mV 85C Model Setup 'iClock'
+Slack : -0.905
+TNS   : -0.905
+
+Type  : Slow 1200mV 85C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : -0.615
+TNS   : -0.615
+
+Type  : Slow 1200mV 85C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : -0.543
+TNS   : -0.543
+
+Type  : Slow 1200mV 85C Model Setup 'PC:inst5|inst2'
+Slack : -0.480
+TNS   : -0.480
+
+Type  : Slow 1200mV 85C Model Setup 'PC:inst5|inst4'
+Slack : -0.241
+TNS   : -0.241
+
+Type  : Slow 1200mV 85C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PC:inst5|inst4'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PC:inst5|inst2'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : 0.510
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : 0.608
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'iClock'
+Slack : 0.821
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'PC:inst5|inst4'
+Slack : -3.154
+TNS   : -5.997
+
+Type  : Slow 1200mV 85C Model Recovery 'PC:inst5|inst2'
+Slack : -3.010
+TNS   : -3.010
+
+Type  : Slow 1200mV 85C Model Removal 'PC:inst5|inst4'
+Slack : 3.039
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'PC:inst5|inst2'
+Slack : 3.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'iClock'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PC:inst5|inst4'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PC:inst5|inst2'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : -2.413
+TNS   : -7.172
+
+Type  : Slow 1200mV 0C Model Setup 'iClock'
+Slack : -0.684
+TNS   : -0.684
+
+Type  : Slow 1200mV 0C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : -0.527
+TNS   : -0.527
+
+Type  : Slow 1200mV 0C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : -0.445
+TNS   : -0.445
+
+Type  : Slow 1200mV 0C Model Setup 'PC:inst5|inst2'
+Slack : -0.395
+TNS   : -0.395
+
+Type  : Slow 1200mV 0C Model Setup 'PC:inst5|inst4'
+Slack : -0.193
+TNS   : -0.193
+
+Type  : Slow 1200mV 0C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PC:inst5|inst4'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PC:inst5|inst2'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : 0.554
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'iClock'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'PC:inst5|inst4'
+Slack : -2.798
+TNS   : -5.373
+
+Type  : Slow 1200mV 0C Model Recovery 'PC:inst5|inst2'
+Slack : -2.647
+TNS   : -2.647
+
+Type  : Slow 1200mV 0C Model Removal 'PC:inst5|inst4'
+Slack : 2.816
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'PC:inst5|inst2'
+Slack : 2.970
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'iClock'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PC:inst5|inst4'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PC:inst5|inst2'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : -0.759
+TNS   : -1.880
+
+Type  : Fast 1200mV 0C Model Setup 'iClock'
+Slack : -0.292
+TNS   : -0.292
+
+Type  : Fast 1200mV 0C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PC:inst5|inst2'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PC:inst5|inst4'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PC:inst5|inst4'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PC:inst5|inst2'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'iClock'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'PC:inst5|inst4'
+Slack : -1.121
+TNS   : -2.088
+
+Type  : Fast 1200mV 0C Model Recovery 'PC:inst5|inst2'
+Slack : -0.917
+TNS   : -0.917
+
+Type  : Fast 1200mV 0C Model Removal 'PC:inst5|inst2'
+Slack : 1.579
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'PC:inst5|inst4'
+Slack : 1.638
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'iClock'
+Slack : -3.000
+TNS   : -4.319
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst3'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PC:inst5|inst4'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PC:inst5|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clockDiv:inst2|rippleCounter:inst|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

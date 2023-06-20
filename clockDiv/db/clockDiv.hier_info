@@ -1,0 +1,21 @@
+|clockDiv
+1hzclock <= rippleCounter:inst.d4
+iClock => rippleCounter:inst.clk
+clear => rippleCounter:inst.reset
+halfhzclock <= rippleCounter:inst.d8
+
+
+|clockDiv|rippleCounter:inst
+d4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+reset => inst2.ACLR
+reset => inst.ACLR
+reset => inst3.ACLR
+reset => inst4.ACLR
+clk => inst.CLK
+clk => d1.DATAIN
+d2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= clk.DB_MAX_OUTPUT_PORT_TYPE
+d8 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d16 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

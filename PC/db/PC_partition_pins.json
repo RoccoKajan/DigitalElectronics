@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "waiting",
+					"strict" : false
+				},
+				{
+					"name" : "max",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "resetCounter",
+					"strict" : false
+				},
+				{
+					"name" : "sensor2",
+					"strict" : false
+				},
+				{
+					"name" : "sensor1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
